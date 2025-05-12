@@ -3,7 +3,7 @@ kind: Job
 metadata:
   namespace: example05
   name: cleanup-after-sync
-  annotations:
+annotations:
     argocd.argoproj.io/sync-wave: "10" 
 spec:
   template:
